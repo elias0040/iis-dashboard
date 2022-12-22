@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Column from './components/Column';
 import IconButton from './components/IconButton';
+import { Socket } from 'socket.io-client';
 
 function App() {
   return (
